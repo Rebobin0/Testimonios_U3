@@ -1,13 +1,26 @@
 :root {
-    --bg:#f7f7fb;
+    --bg_start:#7676f9;
+    --bg_end:#afc1ff;
     --card:#fff;
     --accent:#4f46e5;
-    --muted:#666;
+    --muted:#303039;
+}
+
+/* Animación de para los Testimonios */
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 body { 
     font-family: Inter, system-ui, sans-serif; 
-    background: var(--bg); 
+    background: linear-gradient(135deg, var(--bg_start), var(--bg_end)); 
     margin:0; 
     padding:40px; 
     display:flex; 
@@ -17,7 +30,7 @@ body {
 .app { 
     width: 420px; 
     text-align:center;
-    color: #222; 
+    color: #000066; 
 }
 
 .testimonial-card { 
@@ -26,6 +39,7 @@ body {
     border-radius:12px;
     margin-bottom: 12px;
     box-shadow: 0 6px 18px rgba(20,20,50,0.08); 
+    animation: fadeInSlideUp 0.6s ease-in-out forwards;
 }
 
 .testimonial-photo { 
@@ -68,6 +82,14 @@ body {
     cursor:pointer; 
     background:#fff; 
     box-shadow:0 2px 6px rgba(0,0,0,0.06); 
+    transition: background 0.2s, transform 0.1s;
+}
+.controls button:hover {
+    background: #f0f0f0;
+}
+
+.controls button:active {
+    transform: scale(0.98);
 }
 
 .counter { 
