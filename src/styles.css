@@ -16,7 +16,8 @@ body {
 
 .app { 
     width: 420px; 
-    text-align:center; 
+    text-align:center;
+    color: #222; 
 }
 
 .testimonial-card { 
@@ -61,6 +62,7 @@ body {
 
 .controls button { 
     border: none; 
+    color: #222;
     padding:8px 12px; 
     border-radius:8px; 
     cursor:pointer; 
@@ -73,24 +75,3 @@ body {
     margin-top:8px; 
     font-size:0.9rem; 
 }
-
-/* .testimonial-card {
-    background: white;
-    border-radius: 12px;
-    padding: 24px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    text-align: center;
-}
-
-.testimonial-photo {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 12px;
-}
-
-.testimonial-name {
-    font-weight: 600;
-    margin-bottom: 4px;
-} */

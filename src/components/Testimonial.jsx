@@ -10,5 +10,5 @@ export default function Testimonial( {item} ) {
             <p className="testimonial-role">{cargo}</p>
             <p className="testimonial-text">"{texto}"</p>
         </article>
-    )
+    );
 }

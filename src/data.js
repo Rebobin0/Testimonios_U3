@@ -23,14 +23,14 @@ const testimonios = [
         id: 4,
         nombre: 'Emiliano Rebolledo', 
         cargo: 'Developer Senior', 
-        texto: 'Resultados visibles en pocas semanas. Excelente soporte.', 
+        texto: 'Excelentes documentaciones. Muy recomendable para equipos técnicos.', 
         foto: 'https://i.pravatar.cc/150?img=3' 
     },
     {
         id: 5,
         nombre: 'Claudia Navarrete', 
         cargo: 'Developer Junior', 
-        texto: 'Resultados visibles en pocas semanas. Excelente soporte.', 
+        texto: 'Buena ayudante para cualquier desarrollo de software.', 
         foto: 'https://i.pravatar.cc/150?img=5' 
     }
 ]; 
