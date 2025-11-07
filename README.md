@@ -1,3 +1,13 @@
+# Práctica Testimonios Unidad 3 
+
+Elaborado por Emiliano Rebolledo Navarrete
+
+## Descripción
+
+Es un proyecto creado a partir del comando npm create vita@latest testimonial -- --template react
+
+Por ello, para su prueba se debe de ejecutar el comando npm install en caso de que no carguen los módulos de node.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
